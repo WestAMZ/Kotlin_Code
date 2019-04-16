@@ -1,22 +1,9 @@
 fun main(args:Array<String>)
 {
-    printMenu()
-    val answer:String = readLine()!!
-    when (answer)
-    {
-        "y" -> println("It's nice")
-        "n" -> println("Don't worry, be happy :D")
-        else ->println("You don't have been anwer my question :c") 
-    }
-    
-    
+    println("This is the calling first time ${foo()} and  second time ${foo()}")
 }
-//Function estructure 
-// key word  fun <function_name> (arg_name:arg_type ....)
-fun printMenu()
-{
-    println("Welcome to my program")
-    println("Are you happy?")
-    println("Yes (y)")
-    println("No (n)")
+fun foo():String
+{   
+    println("runing  function..")
+    return "foo()"
 }
