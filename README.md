@@ -8,3 +8,4 @@ This repository contains a basic samples code of the principal features and sint
 	`kotlinc <file_main.kt> -include-runtime -d <destination.jar>  <dependence1.kt dependence2.kt ... dependenceN.kt>` 
 - Run java .jar
 	`java -jar <file.jar>`
+
